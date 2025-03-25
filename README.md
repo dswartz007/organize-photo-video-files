@@ -6,8 +6,8 @@ This PowerShell script organizes photos and videos from a source directory into 
 
 - Automatically creates subfolders for each year.
 - Separates photos and videos into different subfolders:
-  - **Photos**: `YYYY Surname Photo Reel`
-  - **Videos**: `YYYY Surname Video Reel`
+  - **Photos**: `YYYY Photo Reel`
+  - **Videos**: `YYYY Video Reel`
 - Skips files that already exist in the destination folder.
 - Sorts directories in the destination folder by creation date.
 
@@ -41,9 +41,9 @@ C:\Directory\Containing\MediaFiles
 After running the script, the destination directory will look like this:
 ```
 D:\Directory\For\OrganizedMediaFiles
-├── 2022 Surname Video Reel
+├── 2022 Video Reel
 │   └── video1.mp4
-├── 2023 Surname Photo Reel
+├── 2023 Photo Reel
     ├── photo1.jpg
     └── photo2.png
 ```

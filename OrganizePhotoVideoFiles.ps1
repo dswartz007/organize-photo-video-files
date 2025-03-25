@@ -18,9 +18,9 @@ foreach ($file in $mediaFiles) {
 
     # Determine the subfolder name based on the file extension
     if ($file.Extension -match "\.mp4$" -or $file.Extension -match "\.mov$" -or $file.Extension -match "\.mpeg$" -or $file.Extension -match "\.mpg$" -or $file.Extension -match "\.3gp$") {
-        $subFolderName = "$year Swartz Video Reel"
+        $subFolderName = "$year Video Reel"
     } else {
-        $subFolderName = "$year Swartz Photo Reel"
+        $subFolderName = "$year Photo Reel"
     }
 
     # Determine the subfolder path
