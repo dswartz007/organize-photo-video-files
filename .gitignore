@@ -1,0 +1,24 @@
+# Ignore PowerShell-specific files
+*.ps1~
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Ignore log files
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore user-specific configuration files
+*.ps1.user
+
+# Ignore folders that may contain temporary or build artifacts
+bin/
+obj/
